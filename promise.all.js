@@ -8,10 +8,14 @@
  * @returns {Object} Promise object
  */
 function promiseAll(inputArray) {
-  return new Promise(
+  return new Promise(function executorFunction(resolvefn, rejectfn) { // takes executor fn as an argument
 
-  );
+    // Returns an object which contains state as pending and empty Array which is later filled with promise values.
+
+
+  });
 
 
 }
+
 
