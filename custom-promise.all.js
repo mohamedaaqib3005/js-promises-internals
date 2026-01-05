@@ -141,3 +141,4 @@ promiseAll(inputArray)
 
 
 
+console.log(promiseAll())
